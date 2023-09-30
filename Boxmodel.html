@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box model </title>
+        <style>
+            section div{
+                border:2px solid blue;
+                padding: 10px;
+                margin-bottom:10px;
+                margin-left:20px;
+                float:left;
+                width:14.5%;
+                box-sizing:border-box;
+                height:40px;
+
+            }
+            #id1 div{
+                float: left;
+                height:320px;
+                box-sizing:border-box;
+                width:700px;
+                
+                
+            }
+            #id2 div{
+                float:left;
+                width:30.3%;
+                height:300px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div>kona</div>
+            <div>products</div>
+            <div>solutions</div>
+            <div>services</div>
+            <div>pricing</div>
+            <div>Try for free</div>
+        </section>
+        <section id="id1">
+            <div>Revolutionizing the way India LEARNS</div>
+            <div>Kona</div>
+        </section>
+        <section id="id2">
+            <div>What is LMS?</div>
+            <div>LMS for education</div>
+            <div>LMS for institutions</div>
+        </section>
+    </body>
+</html>
